@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <title>Arte Urbana</title>
+</head>
+
+<body>
+    <header>
+        <section class="header">
+            <h1><i class="bi bi-brush-fill"></i>Art</h1>
+            <p>Exibições de arte urbana</p>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projetos</a></li>
+                <li><a href="#">Artistas</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="main">
+            <div class="banner">
+                <div class="descricao-banner">
+                    <h4>Edifício Chiquito Lopes</h4>
+                    <P>Artista: <strong>O Acidum Project</strong></P>
+                    <p>Realizada em 08/2017</p>
+                    <button type="button" class="btn btn-outline-dark" onclick="modalPrincipal()">
+                    Detalhes
+                    </button>
+                </div>
+            </div>
+            <h2>Artes em Destaque</h2>
+            <div class=" container">
+                        <div class="row">
+                            <div class="col col-um">
+                                <h4>Edifício Cartacho</h4>
+                                <P>Artista: <strong>Lídia Viber</strong></P>
+                                <p>Realizada em 09/2020</p>
+                                <button type="button" class="btn btn-outline-dark" onclick="modal1()">Detalhes</button>
+                            </div>
+                            <div class="col col-dois">
+                                <h4>edifício Garagem São José</h4>
+                                <P>Artista: <strong>Milu Correch</strong></P>
+                                <p>Realizada em 12/2017</p>
+                                <button type="button" class="btn btn-outline-dark" onclick="modal2()">Detalhes</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-tres">
+                                <h4>difício Levy</h4>
+                                <P>Artista: <strong>Daiara Hori</strong></P>
+                                <p>Realizada em 9/2020</p>
+                                <button type="button" class="btn btn-outline-dark" onclick="modal3()">Detalhes</button>
+                            </div>
+                            <div class="col col-quatro">
+                                <h4>edifício Rio Tapajós</h4>
+                                <P>Artista: <strong>O Acidum Project</strong></P>
+                                <p>Realizada em 08/2017</p>
+                                <button type="button" class="btn btn-outline-dark" onclick="modal4()">Detalhes</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-cinco">
+                                <h4>Edifício Príncipe de Gales</h4>
+                                <P>Artista: <strong>Davi De Melo Santos</strong></P>
+                                <p>Realizada em 12/2017</p>
+                                <button type="button" class="btn btn-outline-dark" onclick="modal5()">Detalhes</button>
+                            </div>
+                            <div class="col col-seis">
+                                <h4>Edifício Almeida</h4>
+                                <P>Artista: <strong>Diego Mouro</strong></P>
+                                <p>Realizada em 09/2020</p>
+                                <button type="button" class="btn btn-outline-dark" onclick="modal6()">Detalhes</button>
+                            </div>
+                        </div>
+                </div>
+        </section>
+        <div class="modal modalPrincipal" id="modalPrincipal"  tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Mural Híbrida Astral – Guardiã Brasileira</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <figure>
+                        <img src="img/BH-fazendo10.jpg" alt="">
+                    </figure>
+                    <div class="modal-body">
+                        <p>Criola pintou em novembro de 2018 o mural Híbrida Astral – Guardiã Brasileira de 1365 m² quadrados na fachada cega do edifício Chiquito Lopes, materializando por meio da arte – segundo palavras da artista – um caminho interno de honra às mulheres e seu sangue sagrado, de honra aos povos originários brasileiros e seus descendentes como legítimos guardiões dos portais da espiritualidade que sustentam o nosso país.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal modal1" id="modal1"  tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Mural Retorno</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <figure>
+                        <img src="img/BH-fazendo8.jpg" alt="">
+                    </figure>
+                    <div class="modal-body">
+                        <p>Lídia pintou, em setembro de 2020, o mural Retorno, de 652 m², na fachada cega do edifício Cartacho, que é uma metáfora de uma visita guiada ao universo da primeira infância, do desenvolvimento do indivíduo a partir dos padrões impostos em uma sociedade pela qual somos pré configurados a ocupar caixas para nos sentirmos aceitos e amados.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal modal2" id="modal2"  tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Mural Ajo y Vino</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <figure>
+                        <img src="img/BH-fazendo11.jpg" alt="">
+                    </figure>
+                    <div class="modal-body">
+                        <p>Milu pintou, em dezembro de 2017, o mural Ajo y Vino, de 1.750 m² na fachada cega do edifício Garagem São José, representando duas mulheres nuas mascaradas dançando.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal modal3" id="modal3"  tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Mural Selva Mãe do Rio Menino</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <figure>
+                        <img src="img/BH-fazendo13.jpg" alt="">
+                    </figure>
+                    <div class="modal-body">
+                        <p>Daiara pintou no festival trazendo toda a força da sua obra criada a partir da sabedoria e ancestralidade do seu povo. Ela é a 1a mulher indígena brasileira a pintar uma empena. No ano em que o país bateu recorde de queimadas, Daiara Tukano pintou o menino Rio, filho das matas, nos lembrando que para que tenha água, é necessária a floresta.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal modal4" id="modal4"  tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Mural Curandeiras</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <figure>
+                        <img src="img/BH-fazendo6.jpg" alt="">
+                    </figure>
+                    <div class="modal-body">
+                        <p>Acidum pintou, em agosto de 2017, o mural Curandeiras, de 850 m², na fachada cega do edifício Rio Tapajós, retratando dois rostos que se olham e se falam.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal modal5" id="modal5"  tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Mural O Abraço</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <figure>
+                        <img src="img/BH-fazendo9.jpg" alt="">
+                    </figure>
+                    <div class="modal-body">
+                        <p>DMS pintou, em dezembro de 2017, o mural O Abraço, de 1.000 m², na fachada cega do edifício Príncipe de Gales, representando um abraço entre o dia e a noite.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal modal6" id="modal6"  tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Mural sem título</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <figure>
+                        <img src="img/BH-faazendo4.jpg" alt="">
+                    </figure>
+                    <div class="modal-body">
+                        <p>Diego pintou, em setembro de 2020, o mural sem título, de 429 m², na fachada cega do edifício Almeida, que retrata um homem cuidando dos dreadlocks de outro homem.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <section class="footer">
+            <p>@criado por <a href="https://www.linkedin.com/in/luiz-martins-1b72121b4/" target="_blank">Luiz Martins</a></p>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="src/index.js"></script>
+</body>
+
+</html>

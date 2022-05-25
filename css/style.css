@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: #F2F2F2;
+}
+
+
+.header {
+    width: 100%;
+    max-width: 1348px;
+    height: 150px;
+    border-bottom: 1px solid rgb(161, 161, 161);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: #3B3B3B;
+}
+
+.header h1 {
+    color: rgba(255, 255, 255, 0.863);
+}
+
+.header p {
+    color: white;
+}
+
+header ul {
+    display: flex;
+    padding-top: 15px;
+    flex-wrap: wrap;
+    width: 500px;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #999a9b;
+}
+
+.banner {
+    background-image: url(../img/BH-201.jpg);
+    max-width: 1100px;
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+.descricao-banner {
+    width: 350px;
+    height: 200px;
+    margin: 20px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;w: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 2px;
+}
+
+.descricao-banner h4 {
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.descricao-banner p {
+    margin-left: 10px;
+}
+
+.descricao-banner button {
+    margin-left: 10px;
+    border-radius: 2px;
+}
+
+main {
+margin-bottom: 50px;
+}
+
+.main h2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.row {
+    height: 450px;
+}
+
+.col-um {
+    background-image: url(../img/BH-0.jpg);
+    width: 400px;
+    height: 250px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+} 
+
+.col-um h4 {
+    font-weight: bolder;
+    margin-top: 280px;
+    margin-left: -13px;
+}
+
+.col-um p {
+    margin-left: -13px;
+}
+
+.col-um button {
+    border-radius: 2px;
+    margin-left: -13px;
+}
+
+.col-dois {
+    background-image: url(../img/BH-01.jpg);
+    width: 400px;
+    height: 250px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.col-dois h4 {
+    font-weight: bolder;
+    margin-top: 280px;
+    margin-left: -13px;
+}
+
+.col-dois p {
+    margin-left: -13px;
+}
+
+.col-dois button {
+    border-radius: 2px;
+    margin-left: -13px;
+}
+
+.col-tres {
+    background-image: url(../img/BH-520.jpg);
+    width: 400px;
+    height: 250px;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.col-tres h4 {
+    font-weight: bolder;
+    margin-top: 280px;
+    margin-left: -13px;
+}
+
+.col-tres p {
+    margin-left: -13px;
+}
+
+.col-tres button {
+    border-radius: 2px;
+    margin-left: -13px;
+}
+
+.col-quatro {
+    background-image: url(../img/BH-2.jpg);
+    width: 400px;
+    height: 250px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.col-quatro h4 {
+    font-weight: bolder;
+    margin-top: 280px;
+    margin-left: -13px;
+}
+
+.col-quatro p {
+    margin-left: -13px;
+}
+
+.col-quatro button {
+    border-radius: 2px;
+    margin-left: -13px;
+}
+
+.col-cinco {
+    background-image: url(../img/BH-3.jpg);
+    width: 400px;
+    height: 250px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.col-cinco h4 {
+    font-weight: bolder;
+    margin-top: 280px;
+    margin-left: -13px;
+}
+
+.col-cinco p {
+    margin-left: -13px;
+}
+
+.col-cinco button {
+    border-radius: 2px;
+    margin-left: -13px;
+}
+
+.col-seis {
+    background-image: url(../img/BH-4.jpg);
+    width: 400px;
+    height: 250px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.col-seis h4 {
+    font-weight: bolder;
+    margin-top: 280px;
+    margin-left: -13px;
+}
+
+.col-seis p {
+    margin-left: -13px;
+}
+
+.col-seis button {
+    border-radius: 2px;
+    margin-left: -13px;
+}
+
+.modalPrincipal figure img,
+.modal1 figure img,
+.modal2 figure img,
+.modal3 figure img, 
+.modal4 figure img, 
+.modal5 figure img, 
+.modal6 figure img {  
+width: 100%;
+}
+
+.footer {
+    border-top: 1px solid rgb(161, 161, 161);
+    background-color: #3B3B3B;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.footer p {
+    color: white;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover {
+    color: #999a9b;
+}
